@@ -1,0 +1,3947 @@
+[
+  {
+    "name": {
+      "en": "Abalone",
+      "jp": "アワビ"
+    },
+    "location": "Ocean (diving)",
+    "price": 400,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Acorn barnacle",
+      "jp": "フジツボ"
+    },
+    "location": "Ocean (diving)",
+    "price": 200,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "rare"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very common"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "rare"
+      }
+    ],
+    "shadow": {
+      "size": "tiny",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Chambered nautilus",
+      "jp": "オウムガイ"
+    },
+    "location": "Ocean (diving)",
+    "price": 900,
+    "months": [],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "common"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "common"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Clam",
+      "jp": "ハマグリ"
+    },
+    "location": "Ocean (diving)",
+    "price": 300,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "rarity": "very common"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Ear shell",
+      "jp": "トコブシ"
+    },
+    "location": "Ocean (diving)",
+    "price": 300,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Flatworm",
+      "jp": "ヒラムシ"
+    },
+    "location": "Ocean (diving)",
+    "price": 200,
+    "months": [
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "rare"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Giant isopod",
+      "jp": "ダイオウグソクムシ"
+    },
+    "location": "Ocean (diving)",
+    "price": 9000,
+    "months": [],
+    "island": [
+      {
+        "all_day": true,
+        "rarity": "rare"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Horsehair crab",
+      "jp": "ケガニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 4000,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Horseshoe crab",
+      "jp": "カブトガニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1500,
+    "months": [
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Lobster",
+      "jp": "ロブスター"
+    },
+    "location": "Ocean (diving)",
+    "price": 2500,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "all_day": true,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "large",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Mantis shrimp",
+      "jp": "シャコ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1250,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "rare"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Octopus",
+      "jp": "タコ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1200,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very common"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Oyster",
+      "jp": "オイスター"
+    },
+    "location": "Ocean (diving)",
+    "price": 400,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Pearl oyster",
+      "jp": "アコヤガイ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1600,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "common"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "rarity": "very common"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Red king crab",
+      "jp": "タラバガニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 600,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "large",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Scallop",
+      "jp": "ホタテ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1000,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "common"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea anemone",
+      "jp": "イソギンチャク"
+    },
+    "location": "Ocean (diving)",
+    "price": 100,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very common"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea cucumber",
+      "jp": "ナマコ"
+    },
+    "location": "Ocean (diving)",
+    "price": 150,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "medium",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea grapes",
+      "jp": "ウミブドウ"
+    },
+    "location": "Ocean (diving)",
+    "price": 600,
+    "months": [
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      }
+    ],
+    "island": [
+      {
+        "all_day": true,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea slug",
+      "jp": "ウミウシ"
+    },
+    "location": "Ocean (diving)",
+    "price": 200,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "common"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea star",
+      "jp": "ヒトデ"
+    },
+    "location": "Ocean (diving)",
+    "price": 100,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very rare"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very rare"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Sea urchin",
+      "jp": "ウニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 800,
+    "months": [
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very common"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Seaweed",
+      "jp": "ワカメ"
+    },
+    "location": "Ocean (diving)",
+    "price": 200,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ]
+      },
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "very common"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "rarity": "very common"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "island": [
+      {
+        "all_day": true,
+        "rarity": "rare"
+      }
+    ],
+    "shadow": {
+      "size": "large",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Snow crab",
+      "jp": "ズワイガニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 4000,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "large",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Spider crab",
+      "jp": "タカアシガニ"
+    },
+    "location": "Ocean (diving)",
+    "price": 10000,
+    "months": [
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "all_day": true,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "very large",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Spiny lobster",
+      "jp": "イセエビ"
+    },
+    "location": "Ocean (diving)",
+    "price": 3000,
+    "months": [
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "large",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Spotted garden eel",
+      "jp": "チンアナゴ"
+    },
+    "location": "Ocean (diving)",
+    "price": 600,
+    "months": [],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very common"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "rarity": "very rare"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "stationary"
+    }
+  },
+  {
+    "name": {
+      "en": "Sweet shrimp",
+      "jp": "アマエビ"
+    },
+    "location": "Ocean (diving)",
+    "price": 650,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "erratic"
+    }
+  },
+  {
+    "name": {
+      "en": "Tiger prawn",
+      "jp": "クルマエビ"
+    },
+    "location": "Ocean (diving)",
+    "price": 1600,
+    "months": [
+      {
+        "name": "June",
+        "month": 6,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "July",
+        "month": 7,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      }
+    ],
+    "island": [
+      {
+        "start": 4,
+        "end": 9,
+        "rarity": "very common"
+      },
+      {
+        "start": 16,
+        "end": 4,
+        "rarity": "very common"
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "uniform"
+    }
+  },
+  {
+    "name": {
+      "en": "Turban shell",
+      "jp": "サザエ"
+    },
+    "location": "Ocean (diving)",
+    "price": 300,
+    "months": [
+      {
+        "name": "January",
+        "month": 1,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "February",
+        "month": 2,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "March",
+        "month": 3,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "April",
+        "month": 4,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "May",
+        "month": 5,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "August",
+        "month": 8,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "very common"
+          }
+        ]
+      },
+      {
+        "name": "September 1 through 15",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "common"
+          }
+        ],
+        "start": 1,
+        "end": 15
+      },
+      {
+        "name": "September 16 through 30",
+        "month": 9,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ],
+        "start": 16,
+        "end": 30
+      },
+      {
+        "name": "October",
+        "month": 10,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "rarity": "very rare"
+          },
+          {
+            "start": 21,
+            "end": 4,
+            "rarity": "rare"
+          }
+        ]
+      },
+      {
+        "name": "November",
+        "month": 11,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      },
+      {
+        "name": "December",
+        "month": 12,
+        "spawn": [
+          {
+            "start": 4,
+            "end": 9,
+            "rarity": "very rare"
+          },
+          {
+            "start": 16,
+            "end": 4,
+            "rarity": "very rare"
+          }
+        ]
+      }
+    ],
+    "shadow": {
+      "size": "small",
+      "movement": "uniform"
+    }
+  }
+]
