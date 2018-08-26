@@ -1,6 +1,10 @@
-# coding: iso-8859-15
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-# from enum import Enum
+import json
+import sys
+import os
+from jinja2 import Environment, FileSystemLoader
 
 class Bug:
     def __init__(self, name_en, name_jp, price, months):
@@ -31,12 +35,33 @@ class Month:
                 return "Island: " + str(t)
             else:
                 return str(self.number) + ": " + str(t)
-
-# class Rarity(Enum):
-#     VERY_COMMON = 1
-#     COMMON = 2
-#     RARE = 3
-#     VERY_RARE = 4
+    def name(self):
+        if self.number == 1:
+            return "january"
+        elif self.number == 2:
+            return "february"
+        elif self.number == 3:
+            return "march"
+        elif self.number == 4:
+            return "april"
+        elif self.number == 5:
+            return "may"
+        elif self.number == 6:
+            return "june"
+        elif self.number == 7:
+            return "july"
+        elif self.number == 8:
+            return "august"
+        elif self.number == 9:
+            return "september"
+        elif self.number == 10:
+            return "october"
+        elif self.number == 11:
+            return "november"
+        elif self.number == 12:
+            return "december"
+        elif self.number == 13:
+            return "island"
 
 class Time:
     def __init__(self, allday, starthour, endhour, rarity):
@@ -48,10 +73,72 @@ class Time:
         if self.allday:
             return "All day: " + str(self.rarity)
         else:
-            return str(self.starthour) + "00 - " + str(self.endhour) + "00: " + str(self.rarity)
+            return self.ampm() + ": " + str(self.rarity)
+    def ampm(self):
+        if (self.allday):
+            return "All Day"
+        else:
+            returnstr = ""
+            if self.starthour == 0:
+                returnstr += "Midnight - "
+            elif self.starthour < 12:
+                returnstr += str(self.starthour)
+                returnstr += "am - "
+            elif self.starthour == 12:
+                returnstr += "Noon - "
+            else:
+                returnstr += str(self.starthour - 12)
+                returnstr += "pm - "
+            if self.endhour == 0:
+                returnstr += "Midnight"
+            elif self.endhour < 12:
+                returnstr += str(self.endhour)
+                returnstr += "am"
+            elif self.endhour == 12:
+                returnstr += "Noon"
+            else:
+                returnstr += str(self.endhour - 12)
+                returnstr += "pm"
+            return returnstr
+
+def makeBug(item):
+    name_en = item['name']['en']
+    name_jp = item['name']['jp']
+    price = item['price']
+    months = []
+    if 'months' in item:
+        for m in item['months']:
+            spawn = m['spawn']
+            for s in spawn:
+                if 'all_day' in s:
+                    months.append(Month(m['month'], Time(True, 0, 0, s['rarity'])))
+                else:
+                    months.append(Month(m['month'], Time(False, s['start'], s['end'], s['rarity'])))
+    if 'island' in item:
+        island = item['island']
+        for i in island:
+            if 'all_day' in i:
+                months.append(Month(13, Time(True, 0, 0, i['rarity'])))
+            else:
+                months.append(Month(13, Time(False, i['start'], i['end'], i['rarity'])))
+    return Bug(name_en, name_jp, price, months)
+
+    
 
 
-# birdwingbutterfly = Bug("Birdwing Butterfly", "アレクサンドラアゲハ", 4000, [Month(6, [Time(False, 8, 16, Rarity.VERY_RARE)]), Month(7, [Time(False, 8, 16, Rarity.VERY_RARE)]), Month(8, [Time(False, 8, 16, Rarity.VERY_RARE)]), Month(9, [Time(False, 8, 16, Rarity.VERY_RARE)]), Month(13, [Time(False, 8, 16, Rarity.VERY_RARE)])])
-birdwingbutterfly = Bug("Birdwing Butterfly", "アレクサンドラアゲハ", 4000, [Month(6, [Time(False, 8, 16, "very rare")]), Month(7, [Time(False, 8, 16, "very rare")]), Month(8, [Time(False, 8, 16, "very rare")]), Month(9, [Time(False, 8, 16, "very rare")]), Month(13, [Time(False, 8, 16, "very rare")])])
-print(birdwingbutterfly)
 
+if len(sys.argv) > 1:
+    with open(sys.argv[1], encoding='utf-8') as f:
+        data = json.load(f)
+elif len(sys.argv) == 1:
+    print("Pass the requested JSON file path as a command line argument")
+    exit()
+
+loader = FileSystemLoader('templates')
+env = Environment(loader=loader)
+template = env.get_template('template.html')
+
+with open(str(sys.argv[1])[0:4] + ".html", "a") as myfile:
+    for item in data:
+        newbug = makeBug(item)
+        myfile.write(template.render(Data=newbug))
