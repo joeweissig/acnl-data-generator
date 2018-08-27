@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-
-# coding = UTF8
+# -*- coding: utf-8 -*-
 
 import json
 import sys
 import os
-# from enum import Enum
+from jinja2 import Environment, FileSystemLoader
 
 class Bug:
     def __init__(self, name_en, name_jp, price, months):
@@ -22,8 +21,14 @@ class Bug:
         for m in self.months:
             bugstr += str(m) + "\n"
         return bugstr
-    def toHTML(self):
-        html = ""
+    def uniquemonths(self):
+        unique = []
+        uniquenum = []
+        for m in self.months:
+            if m.number not in uniquenum:
+                uniquenum.append(m.number)
+                unique.append(m)
+        return unique
 
 class Month:
     # month number 13 will stand for the island
@@ -36,12 +41,33 @@ class Month:
                 return "Island: " + str(t)
             else:
                 return str(self.number) + ": " + str(t)
-
-# class Rarity(Enum):
-#     VERY_COMMON = 1
-#     COMMON = 2
-#     RARE = 3
-#     VERY_RARE = 4
+    def name(self):
+        if self.number == 1:
+            return "january"
+        elif self.number == 2:
+            return "february"
+        elif self.number == 3:
+            return "march"
+        elif self.number == 4:
+            return "april"
+        elif self.number == 5:
+            return "may"
+        elif self.number == 6:
+            return "june"
+        elif self.number == 7:
+            return "july"
+        elif self.number == 8:
+            return "august"
+        elif self.number == 9:
+            return "september"
+        elif self.number == 10:
+            return "october"
+        elif self.number == 11:
+            return "november"
+        elif self.number == 12:
+            return "december"
+        elif self.number == 13:
+            return "island"
 
 class Time:
     def __init__(self, allday, starthour, endhour, rarity):
@@ -53,14 +79,49 @@ class Time:
         if self.allday:
             return "All day: " + str(self.rarity)
         else:
-            return str(self.starthour) + "00 - " + str(self.endhour) + "00: " + str(self.rarity)
+            return self.ampm() + ": " + str(self.rarity)
+    def ampm(self):
+        if (self.allday):
+            return "All Day"
+        else:
+            returnstr = ""
+            if self.starthour == 0:
+                returnstr += "Midnight - "
+            elif self.starthour < 12:
+                returnstr += str(self.starthour)
+                returnstr += "am - "
+            elif self.starthour == 12:
+                returnstr += "Noon - "
+            else:
+                returnstr += str(self.starthour - 12)
+                returnstr += "pm - "
+            if self.endhour == 0:
+                returnstr += "Midnight"
+            elif self.endhour < 12:
+                returnstr += str(self.endhour)
+                returnstr += "am"
+            elif self.endhour == 12:
+                returnstr += "Noon"
+            else:
+                returnstr += str(self.endhour - 12)
+                returnstr += "pm"
+            return returnstr
+    def classnames(self):
+        if not self.allday:
+            returnstr = ""
+            if self.starthour < self.endhour:
+                for h in range(self.starthour, self.endhour):
+                    returnstr += "time" + str(h) + " "
+            elif self.starthour > self.endhour:
+                for h in range(self.starthour, self.endhour + 24):
+                    returnstr += "time" + str(h % 24) + " "
+            return returnstr
 
 def makeBug(item):
     name_en = item['name']['en']
     name_jp = item['name']['jp']
     price = item['price']
     months = []
-    print(name_en)
     if 'months' in item:
         for m in item['months']:
             spawn = m['spawn']
@@ -89,11 +150,11 @@ elif len(sys.argv) == 1:
     print("Pass the requested JSON file path as a command line argument")
     exit()
 
-buglist = []
+loader = FileSystemLoader('templates')
+env = Environment(loader=loader)
+template = env.get_template('template.html')
 
-for item in data:
-    buglist.append(makeBug(item))
-
-for bug in buglist:
-    print(bug)
-
+with open(str(sys.argv[1])[0:4] + ".html", "a") as myfile:
+    for item in data:
+        newbug = makeBug(item)
+        myfile.write(template.render(Data=newbug, Type=str(sys.argv[1])[0:4]))

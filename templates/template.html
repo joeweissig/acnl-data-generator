@@ -1,20 +1,22 @@
-<article class="{% for m in Data.months %}{{m.name()}}{% endfor %}">
+
+<article class="{% for u in Data.uniquemonths() %}{{ u.name() }} {% endfor %}{{ Type }}"
     <div class="name">
-        <p class="en">{{Data.name_en}}</p>
-        <p class="jp">{{Data.name_jp}}</p>
-        <p class="price">{{Data.price}} Bells</p>
+        <p class="en">{{ Data.name_en }}</p>
+        <p class="jp">{{ Data.name_jp }}</p>
+        <p class="price">{{ Data.price }} Bells</p>
     </div>
     {% for m in Data.months -%}
     {% for t in m.times -%}
     {% if t.allday == False -%}
-    <div class="rarity {{m.name()}} {% for x in range(t.starthour, t.endhour) %}time{{x}} {% endfor %}">
+    <div class="rarity {{m.name()}} {{t.classnames()}}"
     {% else -%}
     <div class="rarity {{m.name()}} allday">
     {% endif -%}
-        <p class="time">{{t.ampm()}}</p>
-        <p class="label">{{t.rarity}}</p>
+        <p class="time">{{ t.ampm() }}</p>
+        <p class="label">{{ t.rarity }}</p>
         <img src="res/{{t.rarity}}.png">
     </div>
     {% endfor -%}
     {% endfor -%}
 </article>
+
