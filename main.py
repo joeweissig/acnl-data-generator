@@ -42,32 +42,10 @@ class Month:
             else:
                 return str(self.number) + ": " + str(t)
     def name(self):
-        if self.number == 1:
-            return "january"
-        elif self.number == 2:
-            return "february"
-        elif self.number == 3:
-            return "march"
-        elif self.number == 4:
-            return "april"
-        elif self.number == 5:
-            return "may"
-        elif self.number == 6:
-            return "june"
-        elif self.number == 7:
-            return "july"
-        elif self.number == 8:
-            return "august"
-        elif self.number == 9:
-            return "september"
-        elif self.number == 10:
-            return "october"
-        elif self.number == 11:
-            return "november"
-        elif self.number == 12:
-            return "december"
-        elif self.number == 13:
+        if self.number == 13:
             return "island"
+        else:
+            return "month" + str(self.number)
 
 class Time:
     def __init__(self, allday, starthour, endhour, rarity):
@@ -126,10 +104,30 @@ def makeBug(item):
         for m in item['months']:
             spawn = m['spawn']
             for s in spawn:
-                if 'all_day' in s:
-                    months.append(Month(m['month'], Time(True, 0, 0, s['rarity'])))
+                if m['month'] == 8 or m['month'] == 9:
+                    if 'start' in m:
+                        if m['start'] == 1:
+                            if 'all_day' in s:
+                                months.append(Month(m['month'], Time(True, 0, 0, s['rarity'])))
+                            else:
+                                months.append(Month(m['month'], Time(False, s['start'], s['end'], s['rarity'])))
+                        elif m['start'] == 16:
+                            if 'all_day' in s:
+                                months.append(Month(m['month'] + 0.5, Time(True, 0, 0, s['rarity'])))
+                            else:
+                                months.append(Month(m['month'] + 0.5, Time(False, s['start'], s['end'], s['rarity'])))
+                    else:
+                        if 'all_day' in s:
+                            months.append(Month(m['month'], Time(True, 0, 0, s['rarity'])))
+                            months.append(Month(m['month'] + 0.5, Time(True, 0, 0, s['rarity'])))
+                        else:
+                            months.append(Month(m['month'], Time(False, s['start'], s['end'], s['rarity'])))
+                            months.append(Month(m['month'] + 0.5, Time(False, s['start'], s['end'], s['rarity'])))
                 else:
-                    months.append(Month(m['month'], Time(False, s['start'], s['end'], s['rarity'])))
+                    if 'all_day' in s:
+                        months.append(Month(m['month'], Time(True, 0, 0, s['rarity'])))
+                    else:
+                        months.append(Month(m['month'], Time(False, s['start'], s['end'], s['rarity'])))
     if 'island' in item:
         island = item['island']
         for i in island:

@@ -1,5 +1,5 @@
 
-<article class="{% for u in Data.uniquemonths() %}{{ u.name() }} {% endfor %}{{ Type }}"
+<article class="{% for u in Data.uniquemonths() %}{{ u.name() }} {% endfor %}{{ Type }}">
     <div class="name">
         <p class="en">{{ Data.name_en }}</p>
         <p class="jp">{{ Data.name_jp }}</p>
@@ -8,13 +8,13 @@
     {% for m in Data.months -%}
     {% for t in m.times -%}
     {% if t.allday == False -%}
-    <div class="rarity {{m.name()}} {{t.classnames()}}"
+    <div class="rarity {{m.name()}} {{t.classnames()}}">
     {% else -%}
     <div class="rarity {{m.name()}} allday">
     {% endif -%}
         <p class="time">{{ t.ampm() }}</p>
         <p class="label">{{ t.rarity }}</p>
-        <img src="res/{{t.rarity}}.png">
+        <img src="res/{{t.rarity}}.png" />
     </div>
     {% endfor -%}
     {% endfor -%}
